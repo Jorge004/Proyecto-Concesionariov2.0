@@ -1,0 +1,19 @@
+Instrucciones
+
+Instrucciones para configurar la base de datos:
+1. Crear una nueva base de datos con el nombre semestrales_2023
+2. Importar el archivo sql encontrado en a carpeta e importarlo en la base de datos creada.
+3. En el archivo configbd.php dentro de la carpeta db, cambie el localhost, usuario y contraseña dependiendo de su configuración.
+4. realizar el paso anterior en el archivo Database.php encontrado dentro de ./recursos/connection
+
+Con esto ya habremos importado la base de datos existente y estará lista para usar.
+
+Datos a considerar para utilizar el programa en la vista de usuario:
+1. Se recomienda explorar la vista sin inicio de sesion del usuario para explorar la página según ese escenario.
+2. El input servicios encontrado en el navbar no es funcional, es utilizado unicamente para propositos de diseño.
+3. Si se desea registrar un usuario nuevo, se debe tener en cuenta que el nombre de usuario debe tener 8 caractéres al igual que en la contraseña, mas el formato correo en el campo de correo. 
+
+Datos a considerar para utilizar el programa en la vista de administrador:
+1. Para iniciar sesion en la vista de administrador se debe introducir los siguientes datos en la página de inicio de sesión:
+   - usuario: adminKath
+   - contraseña: 12345678
